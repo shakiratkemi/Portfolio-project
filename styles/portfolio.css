@@ -1,0 +1,14 @@
+body {
+  font-family: "Laila", sans-serif;
+}
+
+h1 {
+  color: rgb(128, 215, 172);
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
