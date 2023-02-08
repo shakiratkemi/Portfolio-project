@@ -1,14 +1,44 @@
+:root {
+  --primary-color: rgb(63, 76, 119);
+  --secondary-color: #e4f1fe;
+  --tertiary-color: rgb(128, 215, 172);
+  --gradient: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+}
+
 body {
+  background-image: url("/images/setup.jpg");
+}
+
+.container {
   font-family: "Laila", sans-serif;
+  padding: 160px 20px;
 }
 
-h1 {
-  color: rgb(128, 215, 172);
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-}
-
-p {
+.content p {
+  font-size: 36px;
   font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.content h2 {
+  color: var(--tertiary-color);
+  line-height: 2;
+  font-family: "Playfair Display", serif;
   font-weight: normal;
+  font-size: 24px;
+}
+
+.btn-branding {
+  background: var(--gradient);
+  color: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
