@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("/images/setup.jpg");
+  background-image: url("/images/coding.jpg");
 }
 
 .container {
@@ -26,6 +26,9 @@ body {
   color: var(--primary-color);
 }
 
+.content h1 {
+  color: var(--secondary-color);
+}
 .content h2 {
   color: var(--tertiary-color);
   line-height: 2;
