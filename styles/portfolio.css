@@ -2,18 +2,19 @@
   --primary-color: rgb(63, 76, 119);
   --secondary-color: #e4f1fe;
   --tertiary-color: rgb(128, 215, 172);
-  --gradient: linear-gradient(
-    112.1deg,
-    rgb(32, 38, 57) 11.4%,
-    rgb(63, 76, 119) 70.2%
+  --gradient: radial-gradient(
+    590px at 8.2% 13.8%,
+    rgb(18, 35, 60) 0%,
+    rgb(187, 187, 187) 90%
   );
   --first-font-family: "Laila", sans-serif;
   --second-font-family: "Poppins", sans-serif;
   --third-font-family: "Playfair Display", serif;
+  --box-shadow: 5px 5px 10px rgb(154, 180, 212);
 }
 
 body {
-  background-image: url("/images/dot.jpg");
+  background: var(--gradient);
 }
 
 .container {
@@ -45,10 +46,31 @@ body {
 }
 
 .btn-branding {
-  background: var(--gradient);
+  background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.first-link {
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+.second-link {
+  padding: 20px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  text-transform: capitalize;
+  color: var(--secondary-color);
 }
