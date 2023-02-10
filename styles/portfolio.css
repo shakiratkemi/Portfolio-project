@@ -55,8 +55,8 @@ body {
   box-shadow: var(--box-shadow);
 }
 
-p {
-  text-transform: uppercase;
+h3 {
+  text-transform: capitalize;
   font-size: 40px;
   font-weight: bold;
   color: var(--tertiary-color);
