@@ -55,6 +55,12 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+p {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+}
 .first-link {
   padding: 20px 15px;
   border-radius: 5px;
