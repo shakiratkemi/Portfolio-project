@@ -2,6 +2,7 @@
   --primary-color: rgb(63, 76, 119);
   --secondary-color: #e4f1fe;
   --tertiary-color: rgb(128, 215, 172);
+  --fourth-color: rgb(14, 118, 222);
   --gradient: radial-gradient(
     590px at 8.2% 13.8%,
     rgb(18, 35, 60) 0%,
@@ -20,6 +21,7 @@ body {
 .container {
   font-family: var(--first-font-family);
   padding: 160px 20px;
+  background: var(--fourth-color);
 }
 
 .content p {
