@@ -2,7 +2,7 @@
   --primary-color: rgb(63, 76, 119);
   --secondary-color: #e4f1fe;
   --tertiary-color: rgb(128, 215, 172);
-  --fourth-color: rgb(14, 118, 222);
+  --fourth-color: rgb(24, 30, 37);
   --gradient: radial-gradient(
     590px at 8.2% 13.8%,
     rgb(18, 35, 60) 0%,
@@ -15,31 +15,28 @@
 }
 
 body {
-  background: var(--gradient);
+  background: var(--fourth-color);
 }
 
 .container {
   font-family: var(--first-font-family);
-  padding: 160px 20px;
-  background: var(--fourth-color);
 }
 
-.content p {
-  font-size: 36px;
+.content h2 {
+  font-size: 48px;
   font-family: var(--second-font-family);
   font-weight: bold;
-  margin: 0;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .content h1 {
   color: var(--secondary-color);
-  font-size: 70px;
+  font-size: 96px;
   line-height: 1.5;
   font-weight: bold;
 }
 
-.content h2 {
+.content h3 {
   color: var(--tertiary-color);
   line-height: 2;
   font-family: var(--third-font-family);
@@ -57,12 +54,18 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+h2,
+p {
+  color: var(--secondary-color);
+}
+
 h3 {
   text-transform: capitalize;
   font-size: 40px;
   font-weight: bold;
   color: var(--tertiary-color);
 }
+
 .first-link {
   padding: 20px 15px;
   border-radius: 5px;
@@ -81,4 +84,24 @@ h3 {
   background: var(--primary-color);
   text-transform: capitalize;
   color: var(--secondary-color);
+}
+
+.about-paragraph {
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 15px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: var(--third-color);
 }
