@@ -14,29 +14,19 @@
   --box-shadow: 5px 5px 10px rgb(154, 180, 212);
 }
 
-body {
-  background: var(--fourth-color);
-}
-
 .container {
   font-family: var(--first-font-family);
 }
 
-.content h2 {
-  font-size: 48px;
-  font-family: var(--second-font-family);
-  font-weight: bold;
-  color: var(--tertiary-color);
-}
-
-.content h1 {
-  color: var(--secondary-color);
-  font-size: 96px;
+.hero h1 {
+  color: var(--fourth-color);
+  font-size: 70px;
   line-height: 1.5;
   font-weight: bold;
+  font-family: var(--first-font-family);
 }
 
-.content h3 {
+.hero h3 {
   color: var(--tertiary-color);
   line-height: 2;
   font-family: var(--third-font-family);
@@ -56,7 +46,7 @@ body {
 
 h2,
 p {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h3 {
@@ -98,7 +88,7 @@ h3 {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--fourth-color);
   font-size: 28px;
 }
 
